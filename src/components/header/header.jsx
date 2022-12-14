@@ -25,14 +25,7 @@ const NavBAr = () => {
         <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
       </svg>
       </div>
-      <ul className=" sb:block top-0">
-            <li className=''>Home</li>
-            <li className=''>Services</li>
-            <li className=''>About Us</li>
-            <li className=''>Contacts</li>
-            <li className=''>Help</li>
-          </ul>
-      </div>
+     
       
     </nav>
   )
