@@ -4,7 +4,7 @@ import fundingImage from '../../assets/cover-thompson.png'
 
 const Fund = () => {
     return (
-        <section className='w-full h-screen mt-14'>
+        <section className='w-full mt-14'>
             <div className='w-full h-[600px] bg-gray-900/90 absolute'>
                 <img src={fundingImage} className='w-full h-full object-cover mix-blend-overlay' />
             </div>
@@ -29,7 +29,13 @@ const Fund = () => {
                         </p>
                     </div>
                     <div className='bg-slate-100 pl-8 py-4'>
-                        <p className='flex itmes-center text-indigo-600'>Contact Us </p>
+                        <p className='flex itmes-center text-indigo-600'>Contact Us <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mx-2 w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                            </svg>
+
+                        </span>
+                        </p>
                     </div>
                 </div>
                 <div className='bg-white rounded-xl shadow-2xl'>
@@ -43,7 +49,14 @@ const Fund = () => {
                         </p>
                     </div>
                     <div className='bg-slate-100 pl-8 py-4'>
-                        <p className='flex itmes-center text-indigo-600'>Contact Us </p>
+                        <p className='flex itmes-center text-indigo-600'>Contact Us
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mx-2 w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                                </svg>
+
+                            </span>
+                        </p>
                     </div>
                 </div>
                 <div className='bg-white rounded-xl shadow-2xl'>
@@ -57,14 +70,17 @@ const Fund = () => {
                         </p>
                     </div>
                     <div className='bg-slate-100 pl-8 py-4'>
-                        <p className='flex itmes-center text-indigo-600'>Contact Us </p>
+                        <p className='flex itmes-center text-indigo-600'>Contact Us
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mx-2 w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                                </svg>
+
+                            </span>
+                        </p>
                     </div>
                 </div>
             </div>
-            {/* 
-             */}
-
-
         </section>
     )
 }
