@@ -13,7 +13,7 @@ const Subscriptions = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eum similique fugit, numquam asperiores atque!
                     </p>
                 </div>
-                <div className='sm:grid md:flex '>
+                <div className='sm:grid md:flex mx-2'>
                     <div className='bg-white mx-2 md:w-1/3 mt-3 text-slate-900 relative m4 p-8 rounded-xl shadow-2xl'>
                         <span className='uppercase bg-indigo-200 py-1 text-indigo-900 rounded-xl px-2 text-sm'>Movies</span>
                         <div>
@@ -55,7 +55,7 @@ const Subscriptions = () => {
                                 </svg>
                                 Lorem ipsum dolor sit amet.
                             </p>
-                            <button className='p-2 bg-slate-900 w-full my-4'>Get Started</button>
+                            <button className='p-2 bg-blue-900 hover:text-blue-900 w-full my-4'>Get Started</button>
                         </div>
                     </div>
                     <div className='bg-white mx-2 md:w-1/3 mt-3 text-slate-900 relative m4 p-8 rounded-xl shadow-2xl'>
@@ -99,7 +99,7 @@ const Subscriptions = () => {
                                 </svg>
                                 Lorem ipsum dolor sit amet.
                             </p>
-                            <button className='p-2 bg-slate-900 w-full my-4'>Get Started</button>
+                            <button className='p-2 bg-blue-900 hover:text-blue-900 w-full my-4'>Get Started</button>
                         </div>
                     </div>
                     <div className='bg-white mx-2 md:w-1/3 mt-3 text-slate-900 relative m4 p-8 rounded-xl shadow-2xl'>
@@ -143,13 +143,12 @@ const Subscriptions = () => {
                                 </svg>
                                 Lorem ipsum dolor sit amet.
                             </p>
-                            <button className='p-2 bg-slate-900 w-full my-4'>Get Started</button>
+                            <button className='p-2 bg-blue-900 hover:text-blue-900 w-full my-4'>Get Started</button>
                         </div>
                     </div>
                     
                     
                 </div>
-                <div className='grid md:grid-cols-2'></div>
             </div>
 
         </section>
