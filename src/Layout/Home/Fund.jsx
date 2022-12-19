@@ -4,7 +4,7 @@ import fundingImage from '../../assets/cover-thompson.png'
 
 const Fund = () => {
     return (
-        <section className='w-full mt-14'>
+        <section className='w-full mt-14' id='subs'>
             <div className='w-full h-[600px] bg-gray-900/90 absolute'>
                 <img src={fundingImage} className='w-full h-full object-cover mix-blend-overlay' />
             </div>

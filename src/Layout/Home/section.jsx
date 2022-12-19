@@ -3,19 +3,19 @@ import myImage from '../../assets/86121130.jpg'
 
 const Container = () => {
     return (
-        <section className='h-screen w-full bg-zinc-200 flex flex-col justify-start'>
-            <div className="grid grid-cols-2 max-w-[1240] m-auto">
+        <section className='h-screen w-full bg-zinc-200 flex flex-col justify-start scroll-smooth' id="home">
+            <div className="grid md:grid-cols-2 max-w-[1240] m-auto">
                 <div className='flex flex-col justify-start sm:items-start w-full px-2 py-0'>
                     <p className='text-2xl'>Movies and Video Production</p>
                     <p className='py-3 text-5xl font-bold'>Problem Statement</p>
                     <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id amet nam facilis rem, sequi tempore.</p>
                     <button className='py-3 px-6 my-4'>Get Started</button>
                 </div>
-                <div className='flex justify-end mr-4 sm:w-full'>
-                    <img className='w-1/2 mr-4' src={myImage} alt='/' />
+                <div className='md:flex md:justify-end mr-4 sm:w-full mx-auto mb-3'>
+                    <img className='md:w-1/2 sm:w-full mr-4' src={myImage} alt='/' />
                 </div>
             </div>
-            <div className='absolute flex flex-col py-8 md:min-w-[760px] bottom-[2%] mx-1 transform md:translate-x-1/2 bg-zinc-200 border-slate-300 rounded-xl text-center shadow-xl'>
+            <div className='md:absolute flex flex-col py-8 md:min-w-[760px] bottom-[10px] mx-1 transform md:translate-x-1/2 bg-zinc-200 border-slate-300 rounded-xl text-center shadow-xl'>
                 <p>Data Services</p>
                 <div className='flex justify-between flex-wrap px-4'>
                     <p className='flex px-4 py-2 text-slate-500'>
@@ -29,9 +29,10 @@ const Container = () => {
                         </svg>
                         Web Design</p>
                     <p className='flex px-4 py-2 text-slate-500'>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
-                            <path strokeLinejoin="round" strokeLinejoin="round" d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
                         </svg>
+                        
                         Cloud Data Store</p>
                     <p className='flex px-4 py-2 text-slate-500'>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">

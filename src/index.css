@@ -8,7 +8,7 @@
     }
     button {
         @apply text-white border bg-indigo-500 border-indigo-600
-        hover:bg-transparent hover:text-white rounded-md
+        hover:bg-transparent hover:text-indigo-900 rounded-md
     }
 }
 

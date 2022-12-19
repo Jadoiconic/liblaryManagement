@@ -2,7 +2,7 @@ import React from 'react'
 
 const Subscriptions = () => {
     return (
-        <section className='my-32 w-full text-white'>
+        <section className='my-32 w-full text-white' id="service">
             <div className='w-full h-[800px] bg-slate-900 absolute mix-blend-overlay'></div>
 
             <div className='max-w-[1240px] mx-auto py-12'>
