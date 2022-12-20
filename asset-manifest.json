@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tailwindProject/static/css/main.8a135a6c.css",
+    "main.js": "/tailwindProject/static/js/main.1e8a1b38.js",
+    "static/media/cover-thompson.png": "/tailwindProject/static/media/cover-thompson.d9c0ed018ca65aaa0346.png",
+    "static/media/86121130.jpg": "/tailwindProject/static/media/86121130.369c4b36da640b40e838.jpg",
+    "index.html": "/tailwindProject/index.html",
+    "main.8a135a6c.css.map": "/tailwindProject/static/css/main.8a135a6c.css.map",
+    "main.1e8a1b38.js.map": "/tailwindProject/static/js/main.1e8a1b38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a135a6c.css",
+    "static/js/main.1e8a1b38.js"
+  ]
+}
