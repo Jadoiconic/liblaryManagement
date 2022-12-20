@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
 
 
 const NavBAr = () => {
@@ -19,8 +18,8 @@ const NavBAr = () => {
           </ul>
         </div>
         <div className='hidden md:flex pr-4'>
-        <a href="./register"><button className='px-8 py-2 bg-transparent  hover:text-blue-600 border-2 font-bold mr-4'>Sign In</button></a>
-        <a href="./register"><button className='px-8 py-2  hover:text-blue-600 font-bold'>Sign Up</button></a>
+          <a href="./register"><button className='px-8 py-2 bg-transparent  hover:text-blue-600 border-2 font-bold mr-4'>Sign In</button></a>
+          <a href="./register"><button className='px-8 py-2  hover:text-blue-600 font-bold'>Sign Up</button></a>
         </div>
         <div className='md:hidden xl:hidden' onClick={handleClick}>
           {!navb ? <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="hover:text-white w-6 h-6">
@@ -39,11 +38,11 @@ const NavBAr = () => {
         <a href="./Contacts"><li className='border-b-2 border-[#6d71708f] hover:bg-indigo-900 text-white w-full'>Contacts </li></a>
         <a href="./Support"><li className='border-b-2 border-[#6d71708f] hover:bg-indigo-900 text-white w-full'>Help </li></a>
 
-      <div className='flex pr-4 flex-col py-4'>
-        <a href="./login"><button className='border-1 hover:border-white bg-transparent px-8 py-2 mb-4 text-black mr-4 w-full'>Sign In</button></a>
-        <a href="./register"><button className='px-8 py-2 hover:border-white w-full'>Sign Up</button></a>
-      </div>
-    </ul>
+        <div className='flex pr-4 flex-col py-4'>
+          <a href="./login"><button className='border-1 hover:border-white bg-transparent px-8 py-2 mb-4 text-black mr-4 w-full'>Sign In</button></a>
+          <a href="./register"><button className='px-8 py-2 hover:border-white w-full'>Sign Up</button></a>
+        </div>
+      </ul>
 
     </nav >
   )

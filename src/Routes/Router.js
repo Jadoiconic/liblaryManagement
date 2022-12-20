@@ -18,7 +18,7 @@ import Service from '../Pages/Service'
 const Routers = () => {
   return (
     <>
-    <Router>
+      <Router>
         <Routes>
           <Route exact path='/' element={< HomePage />} />
           <Route exact path='/about' element={< About />} />
