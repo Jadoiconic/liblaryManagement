@@ -6,7 +6,7 @@ const Fund = () => {
     return (
         <section className='w-full mt-14' id='subs'>
             <div className='w-full h-[600px] bg-gray-900/90 absolute'>
-                <img src={fundingImage} className='w-full h-full object-cover mix-blend-overlay' />
+                <img src={fundingImage} alt="" className='w-full h-full object-cover mix-blend-overlay' />
             </div>
             <div className='max-w-[1240px] mx-auto text-white relative'>
                 <div className='px-4 py-12'>
