@@ -2,7 +2,7 @@ import React from 'react'
 
 const FooterSection = () => {
     return (
-        <section className='w-full text-gray-300 bg-slate-900'>
+        <section className='w-full text-gray-300 bg-slate-900 px-2'>
             <div className='max-w-[1240px] mx-auto grid grid-cols-3 md:grid-cols-5 border-b-2 border-gray-600 py-4'>
                 <div>
                     <h6 className='font-bold uppercase pt-2'>Solutions</h6>
@@ -35,9 +35,9 @@ const FooterSection = () => {
                 </div>
                 <div className=''>
                     <h6 className='font-bold uppercase pt-2'>Subscription</h6>
-                    <div>
+                    <div className=''>
                         <p>Lorem ipsum dolor sit amet.</p>
-                        <div className='flex px-2 my-4'>
+                        <div className='flex justify-center px-2 my-4'>
                             <input type="email" className='p-2 rounded-0' id="email" />
                             <button className='p-2 rounded-0'>Subscribe</button>
                         </div>
