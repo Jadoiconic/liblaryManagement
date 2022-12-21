@@ -32,7 +32,7 @@ const Service = () => {
         <>
             <NavBAr />
             <div className='my-10 text-center'>
-                <h2 className=' text-5xl font-bold'>Services</h2>
+                <h2 className=' text-5xl font-bold'>Our users</h2>
                 <div className=''>
                     {isLoading && <p className='rounded-[100%] w-[200px] flex items-center justify-center h-[200px] bg-green-500 text-white text-3xl'>Loading...</p>}
                     {error ? <p>{error}</p> : users.length > 0 && (
