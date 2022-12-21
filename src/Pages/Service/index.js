@@ -8,15 +8,21 @@ const Service = () => {
     const [error, setError] = useState('')
 
     const fetchData = () => {
-        setIsLoading(true)
-        fetch("https://jsonplaceholder.typicode.com/users")
-            .then(response => {
-                return response.json()
-            })
-            .then(data => {
-                setIsLoading(false)
-                setUsers(data)
-            })
+        try {
+            setIsLoading(true)
+            fetch("https://jsonplaceholder.typicode.com/users")
+                .then(response => {
+                    return response.json()
+                })
+                .then(data => {
+                    setIsLoading(false)
+                    setUsers(data)
+                })
+            
+        } catch (error) {
+            
+            setError(error)
+        }
     }
 
     useEffect(() => {
@@ -34,7 +40,10 @@ const Service = () => {
             <div className='my-10 text-center'>
                 <h2 className=' text-5xl font-bold'>Our users</h2>
                 <div className=''>
-                    {isLoading && <p className='rounded-[100%] w-[200px] flex items-center justify-center h-[200px] bg-green-500 text-white text-3xl'>Loading...</p>}
+                    <div className='flex items-center justify-center'>
+                        {isLoading && <p className='rounded-[100%] w-[200px] flex items-center justify-center h-[200px] bg-green-500 text-white text-3xl'>Loading...</p>}
+                    </div>
+
                     {error ? <p>{error}</p> : users.length > 0 && (
                         <ul className='w-full grid md:grid-cols-3 gap-3 px-3'>
                             {users.map(user => (
@@ -42,6 +51,8 @@ const Service = () => {
 
                                     <p>Names: {user.name}</p>
                                     <p>Username: {user.username}</p>
+                                    <p>Email: {user.email}</p>
+                                    <p>Phone Number: {user.phone}</p>
                                     <p>Website: {user.website}</p>
                                     <p>Company:
                                         <li>
@@ -50,6 +61,14 @@ const Service = () => {
                                             <p className='px-0'>{user.company.bs}</p>
                                         </li>
                                     </p>
+                                    <p>Address:
+                                        <li>
+                                            <p className='px-0'>Street: {user.address.street}</p>
+                                            <p className='px-0'>City: {user.address.city}</p>
+                                            <p className='px-0'>suite {user.address.suite}</p>
+                                        </li>
+                                    </p>
+
                                 </div>
                             ))}
                         </ul>
