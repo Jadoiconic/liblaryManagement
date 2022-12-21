@@ -39,8 +39,8 @@ const NavBAr = () => {
         <a href="./Support"><li className='border-b-2 border-[#6d71708f] hover:bg-indigo-900 text-white w-full'>Help </li></a>
 
         <div className='flex pr-4 flex-col py-4'>
-          <a href="./login"><button className='border-1 hover:border-white bg-transparent px-8 py-2 mb-4 text-black mr-4 w-full'>Sign In</button></a>
-          <a href="./register"><button className='px-8 py-2 hover:border-white w-full'>Sign Up</button></a>
+          <a href="./login"><button className='border-1 hover:border-white hover:text-white bg-transparent px-8 py-2 mb-4 text-black mr-4 w-full'>Sign In</button></a>
+          <a href="./register"><button className='px-8 py-2 hover:border-white hover:text-white w-full'>Sign Up</button></a>
         </div>
       </ul>
 
