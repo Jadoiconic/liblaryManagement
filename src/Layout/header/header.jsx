@@ -16,7 +16,7 @@ const NavBAr = () => {
           </ul>
         </div>
         <div className='hidden md:flex pr-4'>
-          <a href="./register"><button className='px-8 py-2 bg-transparent  hover:text-blue-600 border-2 font-bold mr-4'>Sign In</button></a>
+          <a href="./login"><button className='px-8 py-2 bg-transparent  hover:text-blue-600 border-2 font-bold mr-4'>Sign In</button></a>
           <a href="./register"><button className='px-8 py-2  hover:text-blue-600 font-bold'>Sign Up</button></a>
         </div>
         <div className='md:hidden xl:hidden' onClick={handleClick}>
