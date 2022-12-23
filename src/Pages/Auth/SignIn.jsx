@@ -3,6 +3,8 @@ import { Link, NavLink } from 'react-router-dom'
 import FooterSection from '../../Layout/Footer/FooterSection'
 import NavBAr from '../../Layout/header/header'
 import myImage from '../../assets/signBg.PNG'
+import { FcGoogle } from 'react-icons/fc'
+import { AiFillFacebook } from 'react-icons/ai'
 
 const SignIn = () => {
     return (
@@ -34,9 +36,9 @@ const SignIn = () => {
                                 <div className="border relative"></div>
                                 <span className="absolute text-center mx-[33%] bg-white mt-[-0.9rem]">Or Login with</span>
                             </div>
-                            <div className='flex justify-around'>
-                                <button className='p-2 w-2/5 bg-[#e02121]'>Google</button>
-                                <button className='p-2 w-2/5 bg-[#127]'>Facebook</button>
+                            <div className='flex justify-between'>
+                                <button className='p-2 w-2/5 bg-[rgb(224,33,33)]  text-lg items-center flex'><FcGoogle size={20} /> Google</button>
+                                <button className='p-2 w-2/5 bg-[#127] text-lg items-center flex'><AiFillFacebook size={20} /> Facebook</button>
                             </div>
                         </form>
                     </div>
