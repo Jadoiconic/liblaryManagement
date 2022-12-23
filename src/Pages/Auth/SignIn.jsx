@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import FooterSection from '../../Layout/Footer/FooterSection'
 import NavBAr from '../../Layout/header/header'
 import myImage from '../../assets/signBg.PNG'
@@ -43,7 +43,7 @@ const SignIn = () => {
                         </form>
                     </div>
                     <div className='w-full'>
-                        <img src={myImage} className='w-full h-auto' />
+                        <img src={myImage} className='w-full h-auto' alt='back ground' />
                     </div>
                 </div>
             </div>

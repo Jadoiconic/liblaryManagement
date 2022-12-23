@@ -49,7 +49,7 @@ const SignUp = () => {
                         </form>
                     </div>
                     <div className='w-full'>
-                        <img src={myImage} className='w-full h-auto' />
+                        <img src={myImage} className='w-full h-auto' alt='back ground' />
                     </div>
                 </div>
             </div>
