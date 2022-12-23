@@ -1,9 +1,18 @@
-import React from 'react'
+const initialState = {
+  loading: false,
+  currentUser: null,
+  error:null,
+};
 
-const Reducer = () => {
-  return (
-    <div>Reducer</div>
-  )
+const userReducer = (state = initialState, action) => {
+ switch (action.type) {
+  case value:
+    
+    break;
+ 
+  default:
+    break;
+ }
 }
 
-export default Reducer
+export default userReducer
