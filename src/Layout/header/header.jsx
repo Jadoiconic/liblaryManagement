@@ -25,10 +25,8 @@ const NavBAr = () => {
           </svg> :
             <span className="text-bold text-5xl text-yellow-600 hover:text-red-500 cursor-default">&times;</span>
           }
-
         </div>
       </div>
-
       <ul className={!navb ? 'hidden' : 'abosolute bg-slate-600 w-full px-8'}>
         <a href="./"><li className='border-b-2 border-[#6d71708f] text-white hover:bg-indigo-900 w-full'>Home</li></a>
         <a href="./Services"><li className='border-b-2 border-[#6d71708f] hover:bg-indigo-900 text-white w-full'>Services</li> </a>
@@ -39,8 +37,7 @@ const NavBAr = () => {
           <a href="./register"><button className='px-8 py-2 hover:border-white hover:text-white w-full'>Sign Up</button></a>
         </div>
       </ul>
-
-    </nav >
+    </nav>
   )
 }
 
