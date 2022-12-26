@@ -5,7 +5,7 @@ const Content = () => {
     return (
         <section className='p-[3rem] w-full'>
             <div className='md:flex sm:grid'>
-                <div  className='w-1/2'>
+                <div  className='md:w-1/2'>
                     <h1 className='text-3xl font-bold uppercase'>Our mission
                         <div className='border w-12 my-4 border-red-600'></div>
                     </h1>
@@ -17,12 +17,12 @@ const Content = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ea sint impedit suscipit sunt asperiores provident voluptate, praesentium eum temporibus.
                     </p>
                 </div>
-                <div className='bg-zinc-200 w-1/2 pr-4 md:min-h-[26.6rem] rounded-sm relative'>
-                    <img className='absolute ml-[-3px] rounded-sm' src={picture} alt="Lorem ipsum dolor sit" />
+                <div className='bg-zinc-200 md:w-1/2 pr-4 md:min-h-[26.6rem] rounded-sm relative'>
+                    <img className='md:absolute lg:absolute ml-[-3px] rounded-sm' src={picture} alt="Lorem ipsum dolor sit" />
                 </div>
             </div>
             <div className='md:mt-[4rem] md:flex w-full'>
-                <div className='w-1/2'>
+                <div className='md:w-1/2'>
                     <h2>Extraordinary Experiences
                         <div className='border w-12 my-4 border-red-600'></div>
                     </h2>
@@ -34,7 +34,7 @@ const Content = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ea sint impedit suscipit sunt asperiores provident voluptate, praesentium eum temporibus.
                     </p>
                 </div>
-                <div className='w-1/2'>
+                <div className='md:w-1/2'>
                     <h2>Our core mission
                         <div className='border w-12 my-4 border-red-600'></div>
                     </h2>
@@ -62,7 +62,6 @@ const Content = () => {
                     </div>
                 </div>
                     </p>
-
                 </div>
             </div>
         </section>
