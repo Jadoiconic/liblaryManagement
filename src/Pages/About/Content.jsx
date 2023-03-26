@@ -1,6 +1,7 @@
 import React from 'react'
 
-import picture from '../../assets/about.jpg'
+import picture from '../../assets/about image.jpeg'
+import Row from '../../Layout/components/SlidingPhotos'
 const Content = () => {
     return (
         <section className='p-[3rem] w-full'>
@@ -9,13 +10,12 @@ const Content = () => {
                     <h1 className='text-3xl font-bold uppercase'>Our mission
                         <div className='border w-12 my-4 border-red-600'></div>
                     </h1>
-                    <p className='text-md pb-2 font-serif md:w-3/4'>
+                    <p className='text-lg pb-2 font-serif md:w-3/4'>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla,
                         error.
-                    </p>
-                    <p className='text-md pb-2 font-serif md:w-3/4'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ea sint impedit suscipit sunt asperiores provident voluptate, praesentium eum temporibus.
                     </p>
+                    <Row title="Books and Authos" rowId={1}/>
                 </div>
                 <div className='bg-zinc-200 md:w-1/2 pr-4 md:min-h-[26.6rem] rounded-sm relative'>
                     <img className='md:absolute lg:absolute ml-[-3px] rounded-sm' src={picture} alt="Lorem ipsum dolor sit" />
@@ -29,8 +29,6 @@ const Content = () => {
                        <p className='text-md pb-2 font-serif md:w-3/4'>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla,
                         error.
-                    </p>
-                    <p className='text-md pb-2 font-serif md:w-3/4'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ea sint impedit suscipit sunt asperiores provident voluptate, praesentium eum temporibus.
                     </p>
                 </div>

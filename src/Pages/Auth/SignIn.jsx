@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom'
 import FooterSection from '../../Layout/Footer/FooterSection'
 import NavBAr from '../../Layout/header/header'
 import myImage from '../../assets/signBg.PNG'
-import { FcGoogle } from 'react-icons/fc'
-import { AiFillFacebook } from 'react-icons/ai'
 
 
 
@@ -33,15 +31,8 @@ const SignIn = () => {
                                 <label htmlFor="me">Remember me</label>
                             </div>
                             <button className='w-full py-2 my-3'>Sign In</button>
-                            <p>Doesn't have account yet? <a href='./register'>Sign Up</a></p>
-                            <div className='relative my-4 mx-auto'>
-                                <div className="border relative"></div>
-                                <span className="absolute text-center mx-[33%] bg-white mt-[-0.9rem]">Or Login with</span>
-                            </div>
-                            <div className='flex justify-between'>
-                                <button className='p-2 w-2/5 bg-[rgb(224,33,33)]  text-lg items-center flex'><FcGoogle size={20} /> Google</button>
-                                <button className='p-2 w-2/5 bg-[#127] text-lg items-center flex'><AiFillFacebook size={20} /> Facebook</button>
-                            </div>
+                            <p>Doesn't have account yet? <a href='./register' className='text-green-400 hover:text-green-700'>Sign Up</a></p>
+                            
                         </form>
                     </div>
                     <div className='w-full'>

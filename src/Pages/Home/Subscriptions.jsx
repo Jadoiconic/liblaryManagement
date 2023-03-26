@@ -15,10 +15,10 @@ const Subscriptions = () => {
                 </div>
                 <div className='sm:grid md:flex mx-2'>
                     <div className='bg-white mx-2 md:w-1/3 mt-3 text-slate-900 relative m4 p-8 rounded-xl shadow-2xl'>
-                        <span className='uppercase bg-indigo-200 py-1 text-indigo-900 rounded-xl px-2 text-sm'>Movies</span>
+                        <span className='uppercase bg-indigo-200 py-1 text-indigo-900 rounded-xl px-2 text-sm'>Reading</span>
                         <div>
                             <p className='text-6xl font-bold py-4 flex'>
-                                $2 <span className='text-xl text-slate-500 flex flex-col justify-end'>/month</span>
+                                Free <span className='text-xl text-slate-500 flex flex-col justify-end'></span>
                             </p>
                         </div>
                         <p className='text-xl py-8 text-slate-500'>
@@ -59,10 +59,10 @@ const Subscriptions = () => {
                         </div>
                     </div>
                     <div className='bg-white mx-2 md:w-1/3 mt-3 text-slate-900 relative m4 p-8 rounded-xl shadow-2xl'>
-                        <span className='uppercase bg-indigo-200 py-1 text-indigo-900 rounded-xl px-2 text-sm'>Movies</span>
+                        <span className='uppercase bg-indigo-200 py-1 text-indigo-900 rounded-xl px-2 text-sm'>Download </span>
                         <div>
                             <p className='text-6xl font-bold py-4 flex'>
-                                $10 <span className='text-xl text-slate-500 flex flex-col justify-end'>/6months</span>
+                                $3 <span className='text-xl text-slate-500 flex flex-col justify-end'>/6months</span>
                             </p>
                         </div>
                         <p className='text-xl py-8 text-slate-500'>
@@ -103,10 +103,10 @@ const Subscriptions = () => {
                         </div>
                     </div>
                     <div className='bg-white mx-2 md:w-1/3 mt-3 text-slate-900 relative m4 p-8 rounded-xl shadow-2xl'>
-                        <span className='uppercase bg-indigo-200 py-1 text-indigo-900 rounded-xl px-2 text-sm'>Movies</span>
+                        <span className='uppercase bg-indigo-200 py-1 text-indigo-900 rounded-xl px-2 text-sm'>Download and updates</span>
                         <div>
                             <p className='text-6xl font-bold py-4 flex'>
-                                $18 <span className='text-xl text-slate-500 flex flex-col justify-end'>/12months</span>
+                                $5 <span className='text-xl text-slate-500 flex flex-col justify-end'>/12months</span>
                             </p>
                         </div>
                         <p className='text-xl py-8 text-slate-500'>

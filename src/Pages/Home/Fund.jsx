@@ -11,7 +11,7 @@ const Fund = () => {
             <div className='max-w-[1240px] mx-auto text-white relative'>
                 <div className='px-4 py-12'>
                     <h2 className='pt-8 text-slate-300 uppercase text-center'>Support</h2>
-                    <h3 className='text-4xl font-bold py-6 text-center'>Finding right Movies </h3>
+                    <h3 className='text-4xl font-bold py-6 text-center'>Finding right Distribution chanel </h3>
                     <p className='py-4 text-2xl font-thin'>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sapiente sunt omnis reprehenderit, delectus earum accusamus inventore cumque vero fugit modi neque nesciunt totam praesentium.
                     </p>

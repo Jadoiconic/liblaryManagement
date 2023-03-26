@@ -8,10 +8,10 @@ const NavBAr = () => {
     <nav className='w-full h-[70px] z-10 bg-indigo-200 sticky top-[0] shadow-lg'>
       <div className='px-2 flex justify-between items-center w-full h-full'>
         <div className='flex items-center'>
-          <h1 className='text-2xl font-bold sm:text-3xl'>MustaDev</h1>
+          <h1 className='text-2xl font-bold sm:text-3xl'>Library</h1>
           <ul className="hidden md:flex font-bold text-blue-600">
             <a href="./" className='hover:bg-zinc-400'><li>Home</li></a>
-            <a href="./services" className='hover:bg-zinc-400'><li>Services</li></a>
+            <a href="./services" className='hover:bg-zinc-400'><li>Books</li></a>
             <a href="./about" className='hover:bg-zinc-400'><li>About Us</li></a>
           </ul>
         </div>
@@ -29,7 +29,7 @@ const NavBAr = () => {
       </div>
       <ul className={!navb ? 'hidden' : 'abosolute bg-slate-600 w-full px-8'}>
         <a href="./"><li className='border-b-2 border-[#6d71708f] text-white hover:bg-indigo-900 w-full'>Home</li></a>
-        <a href="./Services"><li className='border-b-2 border-[#6d71708f] hover:bg-indigo-900 text-white w-full'>Services</li> </a>
+        <a href="./Services"><li className='border-b-2 border-[#6d71708f] hover:bg-indigo-900 text-white w-full'>Books</li> </a>
         <a href="./About"><li className='border-b-2 border-[#6d71708f] hover:bg-indigo-900 text-white w-full'>About Us </li></a>
 
         <div className='flex pr-4 flex-col py-4'>
